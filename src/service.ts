@@ -2,7 +2,7 @@ import bodyParser from 'body-parser';
 import express from 'express';
 import mongoose from 'mongoose';
 import appConfig from './appConfig';
-import AuthenticationRouter from './api/routers/authenticationRouter';
+import AuthenticationRouter from './api/routers/identityRouter';
 
 export class IdentityService {
     private api: express.Express;
